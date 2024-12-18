@@ -15,7 +15,7 @@ class DashboardComponent extends Component
 
     public ?HtmlString $assets = null;
 
-    public function __construct(Dashboard $dashboard, string $pageTitle='Default Page Title')
+    public function __construct(Dashboard $dashboard, string $pageTitle='Dashboard')
     {
         $this->theme = $dashboard->getTheme();
 

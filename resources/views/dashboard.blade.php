@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>{{ $pageTitle ?? 'Unnamed Dashboard' }}</title>
+    <title>{{ $pageTitle }}</title>
     <meta name="google" value="notranslate">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta name="apple-mobile-web-app-capable" content="yes">
